@@ -1,75 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- COMENTARIOS -->
- 
-
-<style>
-
-body{
-
-background-color:goldenrod;
-
-}
-
-
-</style> 
-
-
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pruebas Js A Berna </title>
-    <link rel="shortcut icon" href="http://127.0.0.1:5500/edi.png" /> <!-- PAra cuando esta arriba el servidor, necesita el path del servidor -->
-  <!--   <link rel="shortcut icon" href="/Users/edison.bernate/Documents/Proyectos Edison/edi.png" /> --> <!-- Para cuando el servidor está abajo -->
-
-    
+    <link rel="stylesheet" href="estilos.css">
+    <link href="css.css" rel="stylesheet">
+    <title>Pagina Pruebas</title>
+    <link href="free-v4-shims.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+    <link href="free-v4-font-face.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+    <link href="free.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
 </head>
 
-
 <body>
-    
-    <h1>
-        Prueba inicial de HTML para JS Berna  para p </h1>
+    <!-- <h1>Hola a todos</h1>
+    <img src="http://127.0.0.1:5500/img1.svg" alt=""> -->
 
-        <p>
-            <a href ="perfil.html"> Clic a Perfil </a> 
+    <header>
+        <nav>
 
-        </p>
-        
-        <link href="index.css" rel="stylesheet" type="text/css">
+            <section class="contenedor nav">
+                <!-- Se usan contenedores para poder aplicar mejor los estilos CSS -->
+                <div class="logo">
 
-<!-- Como el mensaje aca arriba tiene <h1>, ese es el querySelector q se debe utilizar -->
+                    <img src="http://127.0.0.1:5500/img1.svg" alt="">
 
-    <!--  
-        <script>
-                var parrafo = document.querySelector('h1');
-                parrafo.style.cursor = 'pointer';
-                parrafo.addEventListener('mouseenter', function(){
-                parrafo.style.color = 'black';
-                });
-                parrafo.addEventListener('mouseleave', function(){
-                parrafo.style.color = 'Red';
-                });
-                parrafo.addEventListener('click', function(){
-                alert ("Felicitaciones! Lograste crear tu primera web interactiva con botoncito y q tal!");
-                })
-            
-          </script> 
+                </div>
 
-        -->
+                <div class="enlaces-header">
+
+                    <!-- a[href="#"]{inicio}*5  -->
+                    <!-- Sirve para agregar 5 anclas con referencia como esta debajo -->
+                    <a href="http://127.0.0.1:5500/Develop/JavaScript/inicial.html">Inicial</a>
+                    <a href="http://127.0.0.1:5500/Develop/JavaScript/perfil.html">Perfil</a>
+                    <a href="http://127.0.0.1:5500/Develop/JavaScript/artista.html">Artista</a>
+                    <a href="#">Ejercicio2</a>
+                    <a href="http://127.0.0.1:5500/Develop/JavaScript/ejercicio3.html">Ejercicio3</a>
+                    <a href="#">Reloj</a>
+
+                </div>
+
+                <div class="hamburguer">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </div>
 
 
- <!--   <script>
-        let d = new Date();
-        document.body.innerHTML = "<h1>Time right now is:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()
-        "</h1>"
-            </script> -->
+            </section>
+        </nav>
+        <div class="contenedor">
+
+            <section class="contenido-header">
+                <section class="textos-header">
+
+                    <h1>Our creative is your succes</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, ducimus.</p>
+                    <a href="http://127.0.0.1:5500/Develop/JavaScript/%C2%B7">Learn More </a>
+                </section>
+                <img src="http://127.0.0.1:5500/img2.svg" alt="">
+            </section>
+
+        </div>
+
+    </header>
+
+
+    <section class="about-us">
+        <div class="contenedor1">
+            <h2 class="titulo">We provide the magic of the world</h2>
+
+            <div class="contenedor-articulo">
+                <div class="articulo">
+
+                    <i class="fas fa-pencil-alt" aria-hidden="true"></i>
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum non sint, voluptas eius
+                        obcaecati voluptate dolorum magni provident ratione!</p>
+                    <a href="#">Read more --&gt;</a>
+                </div>
+
+                <div class="articulo">
+
+                    <i class="fas fa-code" aria-hidden="true"></i>
+                    <h3>Web Developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum non sint, voluptas eius
+                        obcaecati voluptate dolorum magni provident ratione!</p>
+                    <a href="#">Read more --&gt;</a>
+                </div>
+
+                <div class="articulo">
+
+                    <i class="fas fa-cog" aria-hidden="true"></i>
+                    <h3>Web Cognitive</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum non sint, voluptas eius
+                        obcaecati voluptate dolorum magni provident ratione!</p>
+                    <a href="#">Read more --&gt;</a>
+                </div>
+
+                <div class="articulo">
+
+                    <i class="fas fa-chart-pie" aria-hidden="true"></i>
+                    <h3>Web stadistics</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum non sint, voluptas eius
+                        obcaecati voluptate dolorum magni provident ratione!</p>
+                    <a href="#">Read more --&gt;</a>
+                </div>
+
+                <div class="articulo">
+
+                    <i class="fas fa-book-open" aria-hidden="true"></i>
+                    <h3>Web Reading</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum non sint, voluptas eius
+                        obcaecati voluptate dolorum magni provident ratione!</p>
+                    <a href="#">Read more --&gt;</a>
+                </div>
+
+                <div class="articulo">
+
+                    <i class="fas fa-car" aria-hidden="true"></i>
+                    <h3>Web Driving</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum non sint, voluptas eius
+                        obcaecati voluptate dolorum magni provident ratione!</p>
+                    <a href="#">Read more --&gt;</a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contenedor questions">
+
+
+        <section class="textos-Questions">
+
+            <h1>Our creative is your succes</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, ducimus.</p>
+            <a href="http://127.0.0.1:5500/Develop/JavaScript/%C2%B7">Learn More</a>
+        </section>
+        <img src="http://127.0.0.1:5500/img3.svg" alt="">
+
+
+    </section>
+
+
+    <section class="results">
+
+        <div class="contenedor content-results">
+            <section class="numbers">
+                <div class="number">
+                    <h4>+8626</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, recusandae.</p>
+                </div>
+
+                <div class="number">
+                    <h4>+8626</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, recusandae.</p>
+                </div>
+
+                <div class="number">
+                    <h4>+8626</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, recusandae.</p>
+                </div>
+
+                <div class="number">
+                    <h4>+8626</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, recusandae.</p>
+                </div>
+
+
+
+            </section>
+
+            <section class="results-text">
+                <!-- <div class="contenedor"> -->
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis nesciunt consectetur.</p>
+                <a href="#">Ingrese aqui</a>
+                <!-- </div> -->
+
+            </section>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="contenedor1 services">
+
+        <img src="http://127.0.0.1:5500/img4.svg" alt="">
+        <div class="box-skills">
+            <h4><i class="far fa-check-circle" aria-hidden="true"></i> web design</h4>
+            <h4><i class="far fa-check-circle" aria-hidden="true"></i> web develop</h4>
+            <h4><i class="far fa-check-circle" aria-hidden="true"></i> seo</h4>
+            <h4><i class="far fa-check-circle" aria-hidden="true"></i> QA</h4>
+            <h4><i class="far fa-check-circle" aria-hidden="true"></i> PO</h4>
+
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="patfooter">
+            <img src="http://127.0.0.1:5500/img1.svg" alt="">
+        </div>
+
+        <div class="patfooter">
+            <h4>Servicios</h4>
+            <!-- a[href="#"]{Services $}*3 -->
+            <!-- Para hacer 3 anclas. El signo pesos sirve para colocar un numero en incremento y el *3 es la cantidad de 
+            anclas que necesito-->
+
+            <a href="#">Services 1</a>
+            <a href="#">Services 2</a>
+            <a href="#">Services 3</a>
+        </div>
+
+        <div class="patfooter">
+            <h4>Acerca de</h4>
+            <a href="#">About 1</a>
+            <a href="#">About 2</a>
+            <a href="#">About 3</a>
+        </div>
+
+        <div class="patfooter">
+            <h4>Redes sociales</h4>
+            <div class="social-media">
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+                <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+                <i class="fab fa-youtube" aria-hidden="true"></i>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="bf05bffb15.js" crossorigin="anonymous"></script>
+
+    <!-- Code injected by live-server -->
+    <script type="text/javascript">
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+	// ]]>
+    </script>
 
 </body>
-
- <script src="./index.js"></script>  <!-- Para llamar el script desde otro archivo y cuando el servidor esta arriba -->
-
 
 </html>
