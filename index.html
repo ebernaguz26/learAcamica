@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="estilos.css">
     <link href="css.css" rel="stylesheet">
     <title>Pagina Pruebas</title>
-    <link href="free-v4-shims.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
-    <link href="free-v4-font-face.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
-    <link href="free.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+     <!-- Place your kit's code here -->
+     <script src="https://kit.fontawesome.com/bf05bffb15.js" crossorigin="anonymous"></script>
+  
+    
 </head>
 
 <body>
     <!-- <h1>Hola a todos</h1>
-    <img src="http://127.0.0.1:5500/img1.svg" alt=""> -->
+    <img src="http://127.0.0.1:5500/img1.svg" alt=""> --> 
 
     <header>
         <nav>
@@ -25,7 +26,7 @@
                 <!-- Se usan contenedores para poder aplicar mejor los estilos CSS -->
                 <div class="logo">
 
-                    <img src="http://127.0.0.1:5500/img1.svg" alt="">
+                    <img src="http://127.0.0.1:5500/Develop/JavaScript/imagenes/img1.svg" alt="">
 
                 </div>
 
@@ -58,7 +59,7 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, ducimus.</p>
                     <a href="http://127.0.0.1:5500/Develop/JavaScript/%C2%B7">Learn More </a>
                 </section>
-                <img src="http://127.0.0.1:5500/img2.svg" alt="">
+                <img src="http://127.0.0.1:5500/Develop/JavaScript/imagenes/img2.svg" alt="">
             </section>
 
         </div>
@@ -140,7 +141,7 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, ducimus.</p>
             <a href="http://127.0.0.1:5500/Develop/JavaScript/%C2%B7">Learn More</a>
         </section>
-        <img src="http://127.0.0.1:5500/img3.svg" alt="">
+        <img src="http://127.0.0.1:5500/Develop/JavaScript/imagenes/img3.svg" alt="">
 
 
     </section>
@@ -193,7 +194,7 @@
 
     <section class="contenedor1 services">
 
-        <img src="http://127.0.0.1:5500/img4.svg" alt="">
+        <img src="http://127.0.0.1:5500/Develop/JavaScript/imagenes/img4.svg" alt="">
         <div class="box-skills">
             <h4><i class="far fa-check-circle" aria-hidden="true"></i> web design</h4>
             <h4><i class="far fa-check-circle" aria-hidden="true"></i> web develop</h4>
@@ -207,7 +208,7 @@
 
     <footer class="footer">
         <div class="patfooter">
-            <img src="http://127.0.0.1:5500/img1.svg" alt="">
+            <img src="http://127.0.0.1:5500/Develop/JavaScript/imagenes/img1.svg" alt="">
         </div>
 
         <div class="patfooter">
@@ -242,46 +243,7 @@
     </footer>
 
 
-    <script src="bf05bffb15.js" crossorigin="anonymous"></script>
-
-    <!-- Code injected by live-server -->
-    <script type="text/javascript">
-        // <![CDATA[  <-- For SVG support
-        if ('WebSocket' in window) {
-            (function () {
-                function refreshCSS() {
-                    var sheets = [].slice.call(document.getElementsByTagName("link"));
-                    var head = document.getElementsByTagName("head")[0];
-                    for (var i = 0; i < sheets.length; ++i) {
-                        var elem = sheets[i];
-                        var parent = elem.parentElement || head;
-                        parent.removeChild(elem);
-                        var rel = elem.rel;
-                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-                        }
-                        parent.appendChild(elem);
-                    }
-                }
-                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-                var address = protocol + window.location.host + window.location.pathname + '/ws';
-                var socket = new WebSocket(address);
-                socket.onmessage = function (msg) {
-                    if (msg.data == 'reload') window.location.reload();
-                    else if (msg.data == 'refreshcss') refreshCSS();
-                };
-                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-                    console.log('Live reload enabled.');
-                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-                }
-            })();
-        }
-        else {
-            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-        }
-	// ]]>
-    </script>
+  
 
 </body>
 
