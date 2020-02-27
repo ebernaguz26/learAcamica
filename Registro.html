@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario Registro</title>
+</head>
+
+<body>
+
+    <H1> Formulario de Registro </H1>
+    <form>
+        <div>
+            <!-- Documento -->
+            <label>Documento </label><br />
+            <input id="txtDoc" maxlength="60" name="Doc" placeholder="Documento identificacion" required="true"
+                type="text" value="1032333333" readonly>
+            <br />
+            <br />
+            <br />
+        </div>
+
+        <div>
+            <!-- Nombres -->
+            <label>Nombres </label><br />
+            <input id="txtNombre" maxlength="60" name="nombres" placeholder="Nombres" required="true" type="text"
+                value="">
+            <br />
+            <br />
+            <br />
+        </div>
+
+        <div>
+            <!-- Apellidos -->
+
+            <label>Apellidos </label><br />
+            <input id="txtApellido" maxlength="60" name="apellidos" placeholder="Apellidos" required="true" type="text"
+                value="">
+            <br />
+            <br />
+            <br />
+
+            <div>
+                <!-- E-mail -->
+                <label>Email </label><br />
+                <input id="txtEmail" maxlength="90" name="nombres" placeholder="Email" required="true" type="email"
+                    value="">
+                <br />
+                <br />
+                <br />
+            </div>
+            <!-- Pais de origen -->
+            <div>
+                <label>Pais de origen </label><br />
+                <select class="form-control" data-val="true" id="paises" name="Paises" required="true">
+                    <option value="Coli"> </option>
+                    <option value="Col">Colombia</option>
+                    <option value="chi">China</option>
+                    <option value="Pe">Peru</option>
+                    <option value="Cr">Costa Rica</option>
+                    <option value="Pe">Peru 2</option>
+                </select>
+            </div>
+            <!-- Seleccion de carreras -->
+            <div>
+                <br /><br />
+                <label>¿A qué carrera deseas inscribirte? </label><br />
+                <input type="radio" name="Carrera" value="musica" checked> Musica<br>
+                <input type="radio" name="Carrera" value="danzas"> Danzas<br>
+                <input type="radio" name="Carrera" value="ballet"> Ballet
+
+            </div>
+
+
+    </form>
+
+
+</body>
+
+</html>
